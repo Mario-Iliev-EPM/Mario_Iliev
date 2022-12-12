@@ -20,7 +20,7 @@ namespace ClassLibrary1
             List<int> filtered = GetIntegersFromList(listForTest);
             int expectedResult = 4;
             Assert.AreEqual(expectedResult, filtered.Count);
-
+            
         }
         [Test]
         public void Test3()
@@ -41,7 +41,6 @@ namespace ClassLibrary1
                 if (item is int)
                 {
                     nums.Add((int)item);
-                    Console.WriteLine(nums);
                 }
             }
 
