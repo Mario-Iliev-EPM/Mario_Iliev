@@ -28,17 +28,16 @@ namespace ClassLibrary1
         public static int DigitalRootNumber(int n)
         {
             int root = 0;
-
-            while (n > 0 || root > 9)
+            while (n % 10 > 0)
             {
-                if (n == 0)
-                {
-                    n = root;
-                    root = 0;
-                }
-
-                root += n % 10;
+                root += (n % 10);
                 n /= 10;
+
+            }
+            if (root / 10 > 0)
+            {
+
+                return DigitalRootNumber(root);
             }
             return root;
         }

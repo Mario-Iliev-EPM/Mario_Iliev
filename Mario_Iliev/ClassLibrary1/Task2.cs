@@ -61,8 +61,8 @@ namespace ClassLibrary1
             {
                 char nonrpt = map.First(x => x.Value == 1).Key;
                 int Indexof = lower.IndexOf(nonrpt);
-                string ret = str[Indexof].ToString();
-                return ret;
+                string originalCase = str[Indexof].ToString();
+                return originalCase;
             }
             return " ";
         }
