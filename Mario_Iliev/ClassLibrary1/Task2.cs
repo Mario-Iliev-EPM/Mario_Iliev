@@ -12,34 +12,42 @@ namespace ClassLibrary1
         [Test]
         public void NonRepeatCharTest()
         {
-            char first = FirstNonReapeatingLetter("ss");
-            char second = ' ';
-            Assert.AreEqual(second, first);
+            string str = FirstNonReapeatingLetter("ss");
+            string expected = " ";
+            Assert.AreEqual(expected, str);
         }
         [Test]
         public void NonRptCharTest2()
         {
-            char first = FirstNonReapeatingLetter("stress");
-            char second = 't';
-            Assert.AreEqual(second, first);
+            string str = FirstNonReapeatingLetter("stress");
+            string expected = "t";
+            Assert.AreEqual(expected, str);
 
         }
         [Test]
         public void NonRptCharTest3()
         {
-            char first = FirstNonReapeatingLetter("sTress");
-            char second = 't';
-            bool equal = char.ToUpperInvariant(first) == char.ToUpperInvariant(second);
-            Assert.IsTrue(equal);
-
+            string str = FirstNonReapeatingLetter("sTress");
+            string expected = "T";
+            Assert.AreEqual(expected, str);
         }
 
-        public static char FirstNonReapeatingLetter(string str)
+        [Test]
+        public void NonRepeatLetter()
+        {
+            string str = FirstNonReapeatingLetter("AbcaBDC");
+            string expected = "D";
+            Assert.AreEqual(expected, str);
+        }
+
+        public static string FirstNonReapeatingLetter(string str)
         {
             Dictionary<char, int> map = new Dictionary<char, int>();
             int frequency = 0;
 
-            foreach (char c in str.ToCharArray())
+
+            string lower = str.ToLower();
+            foreach (char c in lower.ToCharArray())
             {
                 if (map.ContainsKey(c))
                 {
@@ -52,9 +60,11 @@ namespace ClassLibrary1
             if (map.Values.Contains(1))
             {
                 char nonrpt = map.First(x => x.Value == 1).Key;
-                return nonrpt;
+                int Indexof = lower.IndexOf(nonrpt);
+                string ret = str[Indexof].ToString();
+                return ret;
             }
-            return ' ';
+            return " ";
         }
     }
 }
