@@ -1,0 +1,24 @@
+C:\Automation\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.deps.json
+C:\Automation\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.dll
+C:\Automation\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.pdb
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.csproj.AssemblyReference.cache
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.AssemblyInfoInputs.cache
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.AssemblyInfo.cs
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.csproj.CoreCompileInputs.cache
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.dll
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\refint\RestAutomationBL.dll
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.pdb
+C:\Automation\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\ref\RestAutomationBL.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.deps.json
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\bin\Debug\net6.0\RestAutomationBL.pdb
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.csproj.AssemblyReference.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.AssemblyInfoInputs.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.AssemblyInfo.cs
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.csproj.CoreCompileInputs.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\refint\RestAutomationBL.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\RestAutomationBL.pdb
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\APISpecFlowHT\RestAutomationBL\obj\Debug\net6.0\ref\RestAutomationBL.dll
