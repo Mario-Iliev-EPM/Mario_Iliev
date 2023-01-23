@@ -1,7 +1,7 @@
 {
-  "uuid": "2a39ad1af5264922a03758218f674181",
-  "historyId": "I create new Authorization token",
-  "fullName": "I create new Authorization token",
+  "uuid": "63bb74efe76b409e95f177cdbb75d871",
+  "historyId": "Create booking post request",
+  "fullName": "Create booking post request",
   "labels": [
     {
       "name": "thread",
@@ -13,7 +13,7 @@
     },
     {
       "name": "feature",
-      "value": "AuthToken"
+      "value": "CreateBooking"
     },
     {
       "name": "tag",
@@ -21,7 +21,7 @@
     }
   ],
   "links": [],
-  "name": "I create new Authorization token",
+  "name": "Create booking post request",
   "status": "passed",
   "statusDetails": {
     "known": false,
@@ -31,7 +31,7 @@
   "stage": "finished",
   "steps": [
     {
-      "name": "Given  Create autgorization token",
+      "name": "Given  I create post request for booking",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -42,11 +42,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1673363638738,
-      "stop": 1673363639396
+      "start": 1673596377023,
+      "stop": 1673596377151
     },
     {
-      "name": "Then  I assert that created token is not null",
+      "name": "Then  Assert created booking by id 0",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -57,12 +57,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1673363639397,
-      "stop": 1673363639401
+      "start": 1673596377151,
+      "stop": 1673596377155
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1673363638733,
-  "stop": 1673363639403
+  "start": 1673596377023,
+  "stop": 1673596377156
 }

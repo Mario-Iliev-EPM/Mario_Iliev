@@ -10,7 +10,7 @@ namespace APISpecFlowHT.StepDefinitions
     [Binding]
     public class AuthTokenStepDefinitions : RestClientBaseRequests
     {
-        [Given(@"Create autgorization token")]
+        [Given(@"Create authorization token")]
         public void CreateAuthToken()
         {
             var response = CreateToken();
