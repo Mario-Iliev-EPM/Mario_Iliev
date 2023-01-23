@@ -1,0 +1,30 @@
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.deps.json
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.dll
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.pdb
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.csproj.AssemblyReference.cache
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.AssemblyInfoInputs.cache
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.AssemblyInfo.cs
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.csproj.CoreCompileInputs.cache
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.dll
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\refint\WebUI.TestFramework.dll
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.pdb
+C:\Automation\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\ref\WebUI.TestFramework.dll
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Automation\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.deps.json
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\bin\Debug\net6.0\WebUI.TestFramework.pdb
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.csproj.AssemblyReference.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.AssemblyInfoInputs.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.AssemblyInfo.cs
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.csproj.CoreCompileInputs.cache
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\refint\WebUI.TestFramework.dll
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\WebUI.TestFramework.pdb
+C:\Users\Mario_Iliev\Desktop\.Net online course\Mario_Iliev_Project\WebUIHT\WebUI.TestFramework\obj\Debug\net6.0\ref\WebUI.TestFramework.dll

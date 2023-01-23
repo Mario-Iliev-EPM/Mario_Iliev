@@ -1,0 +1,58 @@
+{
+  "uuid": "3bf372d5aa5b4d769a67052a831b7f8f",
+  "children": [
+    "88d588e5435c45708c39a756c8ae350a"
+  ],
+  "befores": [
+    {
+      "name": "SetUpDriver [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674045778203,
+      "stop": 1674045780465
+    }
+  ],
+  "afters": [
+    {
+      "name": "DeleteCreatedData [-1]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674045791094,
+      "stop": 1674045792087
+    },
+    {
+      "name": "StopDriver [999]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674045792087,
+      "stop": 1674045808418
+    }
+  ],
+  "links": [],
+  "start": 1674045778202,
+  "stop": 1674045856065
+}

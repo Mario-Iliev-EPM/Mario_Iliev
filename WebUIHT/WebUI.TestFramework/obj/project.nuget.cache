@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RzmEx9eX80v+TR1z/BpP/mm6bCwZ9exiajuKBL44mLlWNuRJNJiDCEDDDemyhdv7p66yVhIHqJDsh5CgwuzQPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mario_Iliev\\Desktop\\.Net online course\\Mario_Iliev_Project\\WebUIHT\\WebUI.TestFramework\\WebUI.TestFramework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mario_Iliev\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Mario_Iliev\\.nuget\\packages\\selenium.support\\4.7.0\\selenium.support.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mario_Iliev\\.nuget\\packages\\selenium.webdriver\\4.7.0\\selenium.webdriver.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

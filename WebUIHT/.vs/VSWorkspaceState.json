@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebUI.TestFramework",
+    "\\WebUI.TestFramework\\Contexts",
+    "\\WebUI.TestFramework\\Helpers",
+    "\\WebUI.TestFramework\\Pages",
+    "\\WebUIHT",
+    "\\WebUIHT\\Features",
+    "\\WebUIHT\\StepDefinitions",
+    "\\WebUIHT\\Utils"
+  ],
+  "SelectedNode": "\\WebUIHT\\StepDefinitions\\LoginSteps.cs",
+  "PreviewInSolutionExplorer": false
+}

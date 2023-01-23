@@ -1,0 +1,125 @@
+{
+  "uuid": "65a3d42bd96b43fc807aaa90d8e116e8",
+  "historyId": "Add a new record in Pay Grades and cancel the changes",
+  "fullName": "Add a new record in Pay Grades and cancel the changes",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009B"
+    },
+    {
+      "name": "feature",
+      "value": "Organizations"
+    },
+    {
+      "name": "tag",
+      "value": "Record"
+    }
+  ],
+  "links": [],
+  "name": "Add a new record in Pay Grades and cancel the changes",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the application",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478465127,
+      "stop": 1674478466653
+    },
+    {
+      "name": "When  I log in as admin user",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "5624315c6d064926b44bf2fd2c942e99-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1674478466653,
+      "stop": 1674478467149
+    },
+    {
+      "name": "And  I add New Record with name and save changes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "e8df8b6101a04f1e8bf792cc580dcff9-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1674478467149,
+      "stop": 1674478471444
+    },
+    {
+      "name": "And  I add assigned currency, select currency, with minimum salary 1 and maximum salary 5 and click cancel button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478471444,
+      "stop": 1674478473004
+    },
+    {
+      "name": "Then  Data is not visible on the Paygrades pages",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478473004,
+      "stop": 1674478473281
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674478465127,
+  "stop": 1674478473281
+}

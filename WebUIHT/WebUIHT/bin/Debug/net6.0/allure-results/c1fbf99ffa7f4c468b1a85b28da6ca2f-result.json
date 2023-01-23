@@ -1,0 +1,89 @@
+{
+  "uuid": "69ffe489284745de9ca411f611e7c6f4",
+  "historyId": "Verifythat user is logged in",
+  "fullName": "Verifythat user is logged in",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009B"
+    },
+    {
+      "name": "feature",
+      "value": "Organizations"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Verifythat user is logged in",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the application",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674120275653,
+      "stop": 1674120277104
+    },
+    {
+      "name": "When  I log in as admin user",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "a84cbd7cf84b4db9b4db5d946dd214c0-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1674120277104,
+      "stop": 1674120277617
+    },
+    {
+      "name": "Then  I successfully logged in",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674120277618,
+      "stop": 1674120278754
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674120275653,
+  "stop": 1674120278754
+}

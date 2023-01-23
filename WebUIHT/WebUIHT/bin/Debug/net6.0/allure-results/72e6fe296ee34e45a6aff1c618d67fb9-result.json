@@ -1,0 +1,125 @@
+{
+  "uuid": "f2e29afabb8e4c5b9ba7620cbba3ec81",
+  "historyId": "Add a new record in Pay Grades",
+  "fullName": "Add a new record in Pay Grades",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009B"
+    },
+    {
+      "name": "feature",
+      "value": "Organizations"
+    },
+    {
+      "name": "tag",
+      "value": "Record"
+    }
+  ],
+  "links": [],
+  "name": "Add a new record in Pay Grades",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the application",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478451243,
+      "stop": 1674478453153
+    },
+    {
+      "name": "When  I log in as admin user",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "c87a1245ef9c4b61961a8980b298c5cb-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1674478453156,
+      "stop": 1674478454618
+    },
+    {
+      "name": "And  I add New Record with name and save changes",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "1a0be75a2b1345b0abd802479fd838de-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1674478454618,
+      "stop": 1674478457922
+    },
+    {
+      "name": "And  I add assigned currency, with minimum salary value 1 and maximum value 5 and click save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478457922,
+      "stop": 1674478459704
+    },
+    {
+      "name": "Then  My changes are visible",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674478459704,
+      "stop": 1674478462741
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674478451237,
+  "stop": 1674478462743
+}
