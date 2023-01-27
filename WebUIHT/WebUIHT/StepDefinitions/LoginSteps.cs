@@ -25,13 +25,11 @@ namespace WebUIHT.StepDefinitions
         }
 
         [When(@"I log in as admin user")]
-        public void ILogInAsAdminUser(Table table)
+        public void ILogInAsAdminUser(Credentials credentials)
         {
-            var credentials = table.CreateSet<Credentials>();
-            foreach (var userData in credentials)
-            {
-                _loginContext.Login(userData.Username, userData.Password);
-            }
+           
+                _loginContext.Login(credentials.Username, credentials.Password);
+            
         }
 
         [Then(@"I successfully logged in")]

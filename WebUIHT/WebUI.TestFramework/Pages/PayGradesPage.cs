@@ -14,8 +14,8 @@ namespace WebUI.TestFramework.Pages
         {
             _driver = driver;
         }
-        public IWebElement AddButton => _driver.FindElement(By.XPath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']"));
-        public IWebElement NameTextField => _driver.FindElement(By.XPath("//div[@class='oxd-grid-item oxd-grid-item--gutters']//input[@class='oxd-input oxd-input--active']"));
+        public IWebElement AddButton => _driver.FindElement(By.XPath("//button[text()= ' Add ']"));
+        public IWebElement NameTextField => _driver.FindElement(By.XPath("//div[@class='oxd-grid-item oxd-grid-item--gutters']//input"));
         public IWebElement SaveButton => _driver.FindElement(By.XPath("//button[text()=' Save ']"));
         public IWebElement CurrenciesAddButton => _driver.FindElement(By.XPath("//button[text()=' Add ']"));
         public IWebElement CurrencyOpen => _driver.FindElement(By.XPath("//div[@class='oxd-select-text-input']"));

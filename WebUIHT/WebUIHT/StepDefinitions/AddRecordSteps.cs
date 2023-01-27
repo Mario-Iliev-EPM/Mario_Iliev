@@ -34,15 +34,14 @@ namespace WebUITests.StepDefinitions
 
 
         [When(@"I add New Record with name and save changes")]
-        public void WhenIAddNewRecordWithNameAndSaveChanges(Table table)
+        public void WhenIAddNewRecordWithNameAndSaveChanges(Credentials credentials)
         {
             _baseContext.AdminTabClick();
             _adminContext.JobButtonClick();
             _adminContext.ClickPayGradeButton();
             _payGradesContext.ClickAddButton();
-            var credentials = table.CreateSet<Credentials>();
-            foreach (var userData in credentials)
-                _payGradesContext.PopulateNameField(userData.Name);
+            
+                _payGradesContext.PopulateNameField(credentials.Name);
             _payGradesContext.ClickSaveButton();
         }
 

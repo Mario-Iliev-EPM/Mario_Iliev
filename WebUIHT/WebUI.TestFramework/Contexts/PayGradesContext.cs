@@ -14,11 +14,11 @@ namespace WebUI.TestFramework.Contexts
     {
         private readonly PayGradesPage _payGradesPage;
        
-        private readonly IWebDriver _driver;
+        
         public PayGradesContext(IWebDriver driver)
         {
             _payGradesPage = new PayGradesPage(driver);
-            _driver = driver;
+           
         }
         public void ClickAddButton()
         {
@@ -71,7 +71,7 @@ namespace WebUI.TestFramework.Contexts
         }
           public string GetMaxSalaryValue()
         {
-            return _payGradesPage.MaximumSalaryField.Text; ;
+            return _payGradesPage.MaximumSalaryField.Text;
         }
         public string NoRecordsMessage()
         {

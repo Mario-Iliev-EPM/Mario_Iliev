@@ -12,11 +12,11 @@ namespace WebUI.TestFramework.Contexts
     public class AdminContext
     {
         private readonly AdminPage _adminPage;
-        private readonly IWebDriver _driver;
+        
         public AdminContext(IWebDriver driver)
         {
             _adminPage = new AdminPage(driver);
-            _driver = driver;
+            
         }
         public void JobButtonClick()
         {
