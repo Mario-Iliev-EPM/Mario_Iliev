@@ -73,7 +73,7 @@ namespace RestAutomationBL.RestUtils
             restRequest = createRequest("/booking", Method.Post);
             restRequest.AddHeader("Content-Type", "application/json");
             restRequest.AddHeader("Accept", "application/json");
-
+           
 
             var payload = CreateBookingPayload();
             restRequest.AddBody(payload);
@@ -115,10 +115,9 @@ namespace RestAutomationBL.RestUtils
             return JsonConvert.DeserializeObject<Root>(response.Content);
         }
 
-        public static UpdateBookingResponse UpdateBooking()
+        public static UpdateBookingResponse UpdateBooking(string id)
         {
-            restRequest = createRequest("/booking/:id", Method.Patch);
-            restRequest.AddParameter("id", "1", ParameterType.UrlSegment);
+            restRequest = createRequest("/booking/:"+id, Method.Patch); 
             restRequest.AddHeader("Content-Type", "application/json");
             restRequest.AddHeader("Accept", "application/json");
             restRequest.AddHeader("Authorization", "Basic");

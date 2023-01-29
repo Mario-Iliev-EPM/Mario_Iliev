@@ -12,7 +12,7 @@ namespace APISpecFlowHT.StepDefinitions
     [Binding]
     public class GetBookingStepDefinitions : RestClientBaseRequests
     {
-        [Given(@"I create new GET request by id (.*)")]
+        [Given(@"I make new GET request by id (.*)")]
         public void GetBookingRequest(string id)
         {
 
@@ -22,7 +22,7 @@ namespace APISpecFlowHT.StepDefinitions
 
      
         [Then(@"Assert get request by first name (.*)")]
-        public void ThenAssertSomething(string firstName)
+        public void ThenAssertGetRequest(string firstName)
         {
             var response = (GetBookingResponseDTO)ScenarioContext.Current["response"];
             Assert.AreEqual(firstName, response.firstname);

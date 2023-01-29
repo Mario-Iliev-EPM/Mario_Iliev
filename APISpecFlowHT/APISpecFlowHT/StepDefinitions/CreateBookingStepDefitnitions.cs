@@ -16,6 +16,7 @@ namespace APISpecFlowHT.StepDefinitions
         [Given(@"I create post request for booking")]
         public void GivenICreatePostRequestForBooking()
         {
+            CreateToken();
             var response = PostBooking();
             ScenarioContext.Current["response"] = response;
         }

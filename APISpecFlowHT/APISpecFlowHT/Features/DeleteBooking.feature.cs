@@ -105,6 +105,9 @@ this.ScenarioInitialize(scenarioInfo);
 #line 7
  testRunner.Given("I delete booking with id 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+#line 8
+ testRunner.Then("I assert that there is no booking with id 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
             }
             this.ScenarioCleanup();
         }

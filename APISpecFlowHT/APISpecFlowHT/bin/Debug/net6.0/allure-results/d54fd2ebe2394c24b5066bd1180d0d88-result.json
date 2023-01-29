@@ -1,0 +1,70 @@
+{
+  "uuid": "5f48671ac48d4cc3ad89e5d59f51447a",
+  "historyId": "Get booking by id",
+  "fullName": "Get booking by id",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "EPBGSOFW009B"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    }
+  ],
+  "links": [],
+  "name": "Get booking by id",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 4. Strings differ at index 3.\r\n  Expected: \"Mary\"\r\n  But was:  \"Mark\"\r\n  --------------^\r\n",
+    "trace": "NUnit.Framework.AssertionException:   String lengths are both 4. Strings differ at index 3.\r\n  Expected: \"Mary\"\r\n  But was:  \"Mark\"\r\n  --------------^\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)\r\n   at APISpecFlowHT.StepDefinitions.GetBookingStepDefinitions.ThenAssertGetRequest(String firstName) in C:\\Users\\Mario_Iliev\\Desktop\\.Net online course\\Mario_Iliev_Project\\APISpecFlowHT\\APISpecFlowHT\\StepDefinitions\\GetBookingStepDefinitions.cs:line 28\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I make new GET request by id 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674992436002,
+      "stop": 1674992436807
+    },
+    {
+      "name": "Then  Assert get request by first name Mary",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1674992436807,
+      "stop": 1674992436876
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1674992435996,
+  "stop": 1674992436880
+}
